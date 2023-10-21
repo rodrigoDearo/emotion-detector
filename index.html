@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detector</title>
+    <script defer src="./face-api.min.js"></script>
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="left">
+        <div id="info_emotion">
+            <h1 class="name-website" id="part-left">EMOÇÃO</h1>
+
+            <div id="result">
+
+                <!-- NEUTRO - NEUTRAL -->
+                <div class="emotion" id="neutral">
+                    <div class="images-emotion">
+                        <img src="./img/splash_neutral.png" type="img/png" class="splash-emotion">
+                        <img src="./img/emoji_neutral.png" type="img/gif" class="emoji-emotion">
+                    </div>
+
+                    <div class="texts-emotion">
+                        <h2 class="text-emotion-name">NEUTRO(A)<br><span id="accuranceNeutral"></span></h2>
+                    </div> 
+                </div>
+
+
+                <!-- ALEGRE - HAPPY -->
+                <div class="emotion" id="happy">
+                    <div class="images-emotion">
+                        <img src="./img/splash_happy.png" type="img/png" class="splash-emotion">
+                        <img src="./img/emoji_happy.png" type="img/gif" class="emoji-emotion">
+                    </div>
+
+                    <div class="texts-emotion">
+                        <h2 class="text-emotion-name">ALEGRE<br><span id="accuranceHappy"></span></h2>
+                    </div>
+                </div>
+
+
+                <!-- TRISTE - SAD -->
+                <div class="emotion" id="sad">
+                    <div class="images-emotion">
+                        <img src="./img/splash_sad.png" type="img/png" class="splash-emotion">
+                        <img src="./img/emoji_sad.png" type="img/gif" class="emoji-emotion">
+                    </div>
+
+                    <div class="texts-emotion">
+                        <h2 class="text-emotion-name">TRISTE<br><span id="accuranceSad"></span></h2>
+                    </div>
+                </div>
+
+
+                <!-- RAIVA - ANGRY -->
+                <div class="emotion" id="angry">
+                    <div class="images-emotion">
+                        <img src="./img/splash_angry.webp" type="img/png" class="splash-emotion">
+                        <img src="./img/emoji_angry.png" type="img/gif" class="emoji-emotion">
+                    </div>
+
+                    <div class="texts-emotion">
+                        <h2 class="text-emotion-name">RAIVOSO(A)<br><span id="accuranceAngry"></span></h2>
+                    </div>
+                </div>
+
+
+                <!-- SURPRESO - SURPRISED -->
+                <div class="emotion" id="surprised">
+                    <div class="images-emotion">
+                        <img src="./img/splash_surprised.png" type="img/png" class="splash-emotion">
+                        <img src="./img/emoji_surprised.png" type="img/gif" class="emoji-emotion">
+                    </div>
+
+                    <div class="texts-emotion">
+                        <h2 class="text-emotion-name">SURPRESO(A)<br><span id="accuranceSurprised"></span></h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave">
+            <path fill="#5000ca" fill-opacity="1" d="M0,192L15,186.7C30,181,60,171,90,144C120,117,150,75,180,85.3C210,96,240,160,270,202.7C300,245,330,267,360,277.3C390,288,420,288,450,272C480,256,510,224,540,192C570,160,600,128,630,149.3C660,171,690,245,720,250.7C750,256,780,192,810,160C840,128,870,128,900,138.7C930,149,960,171,990,181.3C1020,192,1050,192,1080,208C1110,224,1140,256,1170,245.3C1200,235,1230,181,1260,138.7C1290,96,1320,64,1350,80C1380,96,1410,160,1425,192L1440,224L1440,320L1425,320C1410,320,1380,320,1350,320C1320,320,1290,320,1260,320C1230,320,1200,320,1170,320C1140,320,1110,320,1080,320C1050,320,1020,320,990,320C960,320,930,320,900,320C870,320,840,320,810,320C780,320,750,320,720,320C690,320,660,320,630,320C600,320,570,320,540,320C510,320,480,320,450,320C420,320,390,320,360,320C330,320,300,320,270,320C240,320,210,320,180,320C150,320,120,320,90,320C60,320,30,320,15,320L0,320Z"></path>
+          </svg>
+          
+    </div>
+    
+
+    <div id="right">
+        <div id="text">
+            <h1 class="name-website" id="part-right">DETECTOR</h1>
+        </div>
+
+        <video height="60%" width="100%" id="video" muted></video>
+    </div>
+</body>
+</html>
