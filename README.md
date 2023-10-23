@@ -16,7 +16,6 @@ The aim of this project is to detect the emotion that the user is expressing bas
 
 * The project must be cloned
 ```
-GIT
 git clone https://github.com/rodrigoDearo/emotion-detector
 ```
 * The repository once cloned must be moved to the local server directory
@@ -28,7 +27,7 @@ Rodrigo Dearo - [Contact](rodrigonascimentodearo@outlook.com)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [MIT] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
