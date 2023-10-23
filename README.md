@@ -1,22 +1,16 @@
-# Project Title
+# Emotion Detector
 
-Simple overview of use/purpose.
+A simple detector emotions based on facial expressions
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+O ntuito deste projeto é detectar a emoção que o usário está expressando baseado na sua expressão facial, sendo preparado para detectar emoções de: neutralidade, felicidade, tristeza, raiva e surpresa. O projeto foi desenvolvido através da consumação dos serviços da biblioteca [face-api-js](https://github.com/justadudewhohacks/face-api.js).
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Apache
 
 ### Executing program
 
@@ -26,27 +20,12 @@ An in-depth paragraph about your project and overview of use.
 code blocks for commands
 ```
 
-## Help
+## Author
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Contributor name and contact info
 
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+Rodrigo Dearo
+[Email](rodrigonascimentodearo@outlook.com)
 
 ## License
 
@@ -55,8 +34,5 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [face-api-js](https://github.com/justadudewhohacks/face-api.js)
+  
