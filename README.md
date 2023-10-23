@@ -25,10 +25,6 @@ git clone https://github.com/rodrigoDearo/emotion-detector
 
 Rodrigo Dearo - [Contact](rodrigonascimentodearo@outlook.com)
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
 ## Acknowledgments
 
 * [face-api-js](https://github.com/justadudewhohacks/face-api.js)
