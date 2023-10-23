@@ -4,28 +4,27 @@ A simple detector emotions based on facial expressions
 
 ## Description
 
-O ntuito deste projeto é detectar a emoção que o usário está expressando baseado na sua expressão facial, sendo preparado para detectar emoções de: neutralidade, felicidade, tristeza, raiva e surpresa. O projeto foi desenvolvido através da consumação dos serviços da biblioteca [face-api-js](https://github.com/justadudewhohacks/face-api.js).
+The aim of this project is to detect the emotion that the user is expressing based on their facial expression, being prepared to detect emotions of: neutrality, happiness, sadness, anger and surprise. The project was developed through the consummation of library services [face-api-js](https://github.com/justadudewhohacks/face-api.js).
 
 ## Getting Started
 
 ### Dependencies
 
-* Apache
+* The program must be run on a server, and can be emulated using a service such as Apache, found in programs such as [WAMP](https://www.wampserver.com/en/) or [XAMP](https://www.apachefriends.org/pt_br/index.html).
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* The project must be cloned
 ```
-code blocks for commands
+GIT
+git clone https://github.com/rodrigoDearo/emotion-detector
 ```
+* The repository once cloned must be moved to the local server directory
+* Go to 'localhost/emotion-detector'
 
 ## Author
 
-Contributor name and contact info
-
-Rodrigo Dearo
-[Email](rodrigonascimentodearo@outlook.com)
+Rodrigo Dearo - [Contact](rodrigonascimentodearo@outlook.com)
 
 ## License
 
@@ -33,6 +32,5 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
 * [face-api-js](https://github.com/justadudewhohacks/face-api.js)
   
